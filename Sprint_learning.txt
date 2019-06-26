@@ -27,3 +27,7 @@ Following are the IOC containers
 2. ApplicationContext
 3. WebApplicationContext
 --------------------------------------------------------------------------------------------------
+#Difference BeanFactory and ApplicationContext is ->
+ApplicationContext create the bean/object while initailization but BeanFactory create the 
+bean/object while we call the getBean() method.
+--------------------------------------------------------------------------------------------------
