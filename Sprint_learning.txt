@@ -1,0 +1,29 @@
+3 reasons to use Spring Data JPA
+
+1. No-code Repositories      :- It is based on repository pattern
+2. Reduced boilerplate code  :- It provide some pre-define method.
+3. Generated queries 	 	 :- 
+
+--------------------------------------------------------------------------------------------------
+Spring create object in following flow
+
+First it checkes for ByType then ByName then Constructor then default then No.
+
+ByType
+ByName
+Constructor
+default
+No
+--------------------------------------------------------------------------------------------------
+Following are the bean scope
+1. singleton
+2. prototype
+3. session
+4. request
+5. global session
+--------------------------------------------------------------------------------------------------
+Following are the IOC containers
+1. BeanFactory
+2. ApplicationContext
+3. WebApplicationContext
+--------------------------------------------------------------------------------------------------
