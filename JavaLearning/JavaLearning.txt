@@ -39,5 +39,11 @@ Overriding
 	Example :- 
 		String s = "vaibhav"; //object will creat in SCP(String Constant Pool)
 		s.concat("jain"); //object vaibhavjain will be created in HEAP area becuase we are creating it at run time.
+
+11. Private >> Default >> Protected >> Public
+	a. private can be accesable inside class itself.
+	b. default can be accesable inside package.
+	c. protected can be accesable inside subclass.
+	d. public can be accesable in everywhere in the application.
 		
  
