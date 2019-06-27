@@ -30,4 +30,7 @@ Following are the IOC containers
 #Difference BeanFactory and ApplicationContext is ->
 ApplicationContext create the bean/object while initailization but BeanFactory create the 
 bean/object while we call the getBean() method.
+
+ApplicationContext is follows Eager loading
+BeanFactory is follows Lazy loading
 --------------------------------------------------------------------------------------------------
