@@ -38,6 +38,8 @@ Overriding
 10. If you are creating any string at run time then it will create string in HEAP area 
 	Example :- 
 		String s = "vaibhav"; //object will creat in SCP(String Constant Pool)
-		s.concat("jain"); //object vaibhavjain will be created in HEAD area becuase we are creating it at run time.
+		s.concat("jain"); //object vaibhavjain will be created in HEAP area becuase we are creating it at run time.
 		
-11. 
+11. Queue In Collection :-
+	11.1 -> Diff between poll() and remove() method in Queue interface is poll() method return null if queue is empty.
+		but remove() method throw java.util.NoSuchElementException exception.
