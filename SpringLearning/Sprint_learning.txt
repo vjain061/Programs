@@ -33,4 +33,6 @@ bean/object while we call the getBean() method.
 
 ApplicationContext is follows Eager loading
 BeanFactory is follows Lazy loading
+
+Note-> But in case of "protype bean" both ApplicationContext and BeanFactory work same.
 --------------------------------------------------------------------------------------------------
