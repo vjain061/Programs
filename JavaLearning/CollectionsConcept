@@ -1,4 +1,7 @@
 1. ConcurrentHashMap and CopyOnWriteArrayList are two weakly consistent/fail safe collection classes.
+	In case of fail fast collections whenever we call next() method first it will check the value of of 
+	"modCount" which indicate that the collection is changed or not, If the the value of modCount is not 
+	as same as before then it will throw ConcurrentModificationException.
 
 2. Queue In Collection :-
     2.1 -> Diff between poll() and remove() method in Queue interface is poll() method return null if queue is empty.
