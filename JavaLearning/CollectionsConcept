@@ -9,3 +9,7 @@
 		
 3. UnSupportedException comes when you try to add the value in UnModifiedCollection. Basically it means JVM is preventing 
 	you to perform some operation.
+	
+4. Default size of Queue is 11.
+
+5. Default size of HashMap bucket is 16.
