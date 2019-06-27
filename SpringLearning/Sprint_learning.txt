@@ -1,14 +1,15 @@
+Spring Introduction -> First spring called as "interface21" and then they name it as "spring".
+Basically spring is a replacement of EJB, because for EJB we should have a application server
+like jboss(it manages the bean in EJB) but in spring bean manage by the IOC which is a part of
+spring. That why spring is light weight.
+--------------------------------------------------------------------------------------------------
 3 reasons to use Spring Data JPA
-
 1. No-code Repositories      :- It is based on repository pattern
 2. Reduced boilerplate code  :- It provide some pre-define method.
 3. Generated queries 	 	 :- 
-
 --------------------------------------------------------------------------------------------------
 Spring create object in following flow
-
 First it checkes for ByType then ByName then Constructor then default then No.
-
 ByType
 ByName
 Constructor
