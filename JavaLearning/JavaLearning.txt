@@ -40,10 +40,4 @@ Overriding
 		String s = "vaibhav"; //object will creat in SCP(String Constant Pool)
 		s.concat("jain"); //object vaibhavjain will be created in HEAP area becuase we are creating it at run time.
 		
-11. Queue In Collection :-
-	11.1 -> Diff between poll() and remove() method in Queue interface is poll() method return null if queue is empty.
-		but remove() method throw java.util.NoSuchElementException exception.
-		
-12. UnSupportedException comes when you try to add the value in UnModifiedCollection. Basically it means JVM is preventing 
-	you to perform some operation.
-13. 
+ 
