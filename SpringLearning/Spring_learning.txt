@@ -10,6 +10,8 @@ Dependency Injection means passing required parameters to POJO classes from XML/
 2. Reduced boilerplate code  :- It provide some pre-define method.
 3. Generated queries 	 	 :- 
 --------------------------------------------------------------------------------------------------
+To receive data from IOC your class should have setter method or parameterized constructor.
+--------------------------------------------------------------------------------------------------
 Spring create object in following flow
 First it checkes for ByType then ByName then Constructor then default then No.
 ByType
