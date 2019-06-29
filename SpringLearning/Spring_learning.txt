@@ -48,3 +48,8 @@ Advantages of IOC
 --------------------------------------------------------------------------------------------------
 Internationalization or i18n -> is the process of designing software so that it can be adapted (localized) to various languages and regions easily, cost-effectively, and in particular without engineering changes to the software. Localization is performed by simply adding locale-specific components, such as translated text, data describing locale-specific behavior, fonts, and input methods.
 --------------------------------------------------------------------------------------------------
+@Autowired : DI
+@Qualifier : Remove Ambi (But can not get dynamic value to overcode this spring introduced @Resource)
+@Resource  : DI + Remove Ambigu   (@Resource(name="${propertyName}"))
+@PropertySource(value="{classpath:application.properties}")
+--------------------------------------------------------------------------------------------------
