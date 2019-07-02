@@ -1,1 +1,5 @@
-
+1. Diff between Bean and POJO.
+Ans :- (1) A JavaBean follows certain conventions. Getter/Setter naming, having a public default constructor, being serialisable.
+       (2) A POJO(plain-old-java-object) is not rigorously defined. It is a java object that does not have a requirement to implement a 
+            particular interface or derive from a particular base class, or make use of particular annotations in order to  be compatible 
+            with a given framework, and can be any arbitary/simple java object.
