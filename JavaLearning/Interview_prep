@@ -1,0 +1,11 @@
+1st Round (2 hours) 1. 16 Aptitude tests which contains  puzzles, math questions etc. Most of the questions from Quantitative Aptitude 
+by R.S.Agarwal 2. 14 Java Objective Questions. Very very easy as they are basic questions. 3. Find the maximum element in a null 
+terminated Linked list using recursions. Recursion is important. If the solution is not recursive, they would reject the solution.
+4. 1 Math Question. A B C + A B C + A B C C C C 1 Medium difficulty Puzzle 2nd Round (2 hours) 1. Why did you leave Company 1 and join
+Company 2 and so on till why do you want to leave the current Company? 2. Details on Tech used for the project and the explanation/usage
+of the architecture. 3. Do you J2EE, Jsp, HashMap etc 4. Design Data Connection Pooling in Java. We are expected to implement a library
+which will used by clients. They give a maximum of 45 minutes to solve this question 5. 1 puzzle. 3rd Round(1 hour) 1. Discussion on 
+projects and counter questioning on how could it be done in a better way. The interviewer was more interested in how I took part in 
+analyzing the problem. 2. 2 Simple puzzles and 1 Medium difficulty puzzle. 3. I have to move the Statue of Liberty from point A to B.
+How would you do it? This is basically to test your handle over the SDLC steps along with Problem Solving. I mentioned that it was a 
+logistic issue which has been solved by most people and I would be following the similar things to track my package's state and location.
