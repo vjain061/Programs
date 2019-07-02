@@ -13,3 +13,12 @@
 4. Default size of Queue is 11.
 
 5. Default size of HashMap bucket is 16.
+
+6. ConcurrentHashMap provides better performance by locking only the portion of the map rather than blocking the whole
+	map resulting in greater shared access, it does not allow null key or null value.
+	
+	a. ReentrantLock lock for locking macanism.
+	b. default capacity = 16
+	c. loadfactor = 0.75
+	d. cuncurrency level = 16
+	e. it is better choice more reads then write.
