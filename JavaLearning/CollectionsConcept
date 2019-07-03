@@ -22,3 +22,10 @@
 	c. loadfactor = 0.75
 	d. cuncurrency level = 16
 	e. it is better choice more reads then write.
+	
+7. Important points about TreeSet :-
+	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
+	   interface or a Comparator should be passed to TreeSet constructor during creation. This is required because TreeSet does not allow 
+	   duplicate elements and to ensure this with custom objects, TreeSet requires a comparator function to perform the comparison 
+	   of custom objects. If a comparator is not specified then when you try to add a custom object to TreeSet, it will 
+	   throw java.lang.ClassCastException.
