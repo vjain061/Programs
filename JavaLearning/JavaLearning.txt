@@ -51,5 +51,8 @@ Overriding
 		transient object and again read it then it will return null.
 	b. To make any class Serializable we need to implement "Serializable" interface.
 	c. And using ObjectOutputStream,ObjectInputStream we can perform read and write operations.
+	
+13. You will get "java.lang.ClassCastException" if you use custom object in TreeMap or TreeSet and not overriding comparator/comparable
+	interfaces.
 		
  
