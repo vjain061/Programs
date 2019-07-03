@@ -47,5 +47,9 @@ Overriding
 	d. public can be accesable in everywhere in the application.
 	
 12. Serialization :- Is the process of converting object into persistance state.
+	a. So basically if any variable in "transient" then it will not participate in serialization process, so if you wirte any
+		transient object and again read it then it will return null.
+	b. To make any class Serializable we need to implement "Serializable" interface.
+	c. And using ObjectOutputStream,ObjectInputStream we can perform read and write operations.
 		
  
