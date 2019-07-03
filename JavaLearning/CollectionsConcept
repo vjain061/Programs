@@ -33,3 +33,15 @@
 8. Homegeneous and Hetrogeneous -> Array have a runtime check on the type of the added element. That is, if a new element that is not of the same type  
 	is added, an ArrayStoreException is thrown at runtime. That's why they are considerd as "homegeneous".
 	That is not true for ArrayList. Due to type erasure at runtime, it can practically hold any object.
+	
+9. HashMap java 8 Implementation -> 
+	a. But you can't rely on people to implement good hash functions. People will often write poor hash functions which will result in a 
+		non-even distribution. It's also possible that we could just get unlucky with our inputs.
+	b. The implementation of Hashmap tries to mitigate this by organising some buckets into trees rather than linked lists if the 
+		buckets becomes too large. This is what TREEIFY_THRESHOLD = 8 is for. If a bucket contains more than eight items, 
+		it should become a tree.
+	c. This tree is a Red-Black tree. It is first sorted by hash code. If the hash codes are the same, it uses the compareTo 
+		method of Comparable if the objects implement that interface, else the identity hash code.
+	d.If entries are removed from the map, the number of entries in the bucket might reduce such that this tree structure is no 
+		longer necessary. That's what the UNTREEIFY_THRESHOLD = 6 is for. If the number of elements in a bucket drops below six,
+		we might as well go back to using a linked list.
