@@ -29,3 +29,7 @@
 	   duplicate elements and to ensure this with custom objects, TreeSet requires a comparator function to perform the comparison 
 	   of custom objects. If a comparator is not specified then when you try to add a custom object to TreeSet, it will 
 	   throw java.lang.ClassCastException.
+	   
+8. Homegeneous and Hetrogeneous -> Array have a runtime check on the type of the added element. That is, if a new element that is not of the same type  
+	is added, an ArrayStoreException is thrown at runtime. That's why they are considerd as "homegeneous".
+	That is not true for ArrayList. Due to type erasure at runtime, it can practically hold any object.
