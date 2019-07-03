@@ -46,3 +46,6 @@
 	d.If entries are removed from the map, the number of entries in the bucket might reduce such that this tree structure is no 
 		longer necessary. That's what the UNTREEIFY_THRESHOLD = 6 is for. If the number of elements in a bucket drops below six,
 		we might as well go back to using a linked list.
+		
+10. TreeSet work as homogeneous, we can not add different value like string and int at same time.
+	If we try to add this we will get "ClassCastException" at run time.
