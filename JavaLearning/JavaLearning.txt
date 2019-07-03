@@ -53,6 +53,8 @@ Overriding
 	c. And using ObjectOutputStream,ObjectInputStream we can perform read and write operations.
 	
 13. An interface can have inner class.
+
+14. Ad-hoc polymorphism is method overloading.
 	
 
 		
