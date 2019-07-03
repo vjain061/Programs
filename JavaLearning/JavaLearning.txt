@@ -45,5 +45,7 @@ Overriding
 	b. default can be accesable inside package.
 	c. protected can be accesable inside subclass.
 	d. public can be accesable in everywhere in the application.
+	
+12. Serialization :- Is the process of converting object into persistance state.
 		
  
