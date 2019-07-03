@@ -36,7 +36,8 @@
 	
 9. HashMap java 8 Implementation -> 
 	a. But you can't rely on people to implement good hash functions. People will often write poor hash functions which will result in a 
-		non-even distribution. It's also possible that we could just get unlucky with our inputs.
+		non-even distribution. It's also possible that we could just get unlucky with our inputs means (It might possible that
+		we will get same hashcode and same bucket index for more elements).
 	b. The implementation of Hashmap tries to mitigate this by organising some buckets into trees rather than linked lists if the 
 		buckets becomes too large. This is what TREEIFY_THRESHOLD = 8 is for. If a bucket contains more than eight items, 
 		it should become a tree.
