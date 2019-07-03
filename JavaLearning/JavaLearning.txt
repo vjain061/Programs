@@ -55,6 +55,8 @@ Overriding
 13. An interface can have inner class.
 
 14. Ad-hoc polymorphism is method overloading.
+
+15. Inner class can extends exactly one class or implements only one interface.
 	
 
 		
