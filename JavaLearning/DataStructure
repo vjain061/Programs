@@ -2,3 +2,7 @@
 
 2. Compelete Binary Tree -> A binary tree, which is completely filled with the possible exception of the bottom level, which is
     filled from left to right.
+    
+3. When to use AVL tree and when to use Red-Black tree?
+    Ans :- If searching is frequent then we should you AVL tree,
+           and if Modification is frequest then we should you Red-Black tree.
