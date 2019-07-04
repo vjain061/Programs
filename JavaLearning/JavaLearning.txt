@@ -66,6 +66,15 @@ Overriding
 	e. Inside the constructor, make sure to use a clone copy of the passed argument and never set your mutable field to the real 			instance passed through constructor, this is to prevent the clients who pass the object from modifying it afterwards.
 	f. Make sure to always return a clone copy of the field and never return the real object instance.
 	
+17. We can declare same variabl in method which is declared in class level.
+	Example :- 
+		class Sample {
+			int i = 10;
+			public void testMethod() {
+				int i = 20;
+			}
+		}
+	
 
 		
  
