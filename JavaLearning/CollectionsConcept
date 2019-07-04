@@ -17,11 +17,20 @@
 6. ConcurrentHashMap provides better performance by locking only the portion of the map rather than blocking the whole
 	map resulting in greater shared access, it does not allow null key or null value.
 	
+	It allows concurrent access to the map. Part of the map called Segment (internal data structure) is only getting locked while adding 
+	or updating the map. So ConcurrentHashMap allows concurrent threads to read the value without locking at all. This data structure was
+	introduced to improve performance.
+	
+	In implementation of ConcurrentHashMap we write modification logic in synchronized block and read logic in normal block so
+	that multiple thread can read at the same time.
+	
 	a. ReentrantLock lock for locking macanism.
 	b. default capacity = 16
 	c. loadfactor = 0.75
 	d. cuncurrency level = 16
 	e. it is better choice more reads then write.
+	
+	"https://dzone.com/articles/how-concurrenthashmap-works-internally-in-java"
 	
 7. Important points about TreeSet :-
 	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
