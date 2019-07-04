@@ -36,6 +36,12 @@
 	on those.
 
 Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurrenthashmap.html#ixzz5sg1nTYkl
+
+7. Diff between HashMap and ConcurrentHashMap
+	a. ConcurrentHashMap is good option for multithreaded environment, using HashMap we can get synchronizedMap but this is
+		same as lagacy HashTable.
+	b. So basically if you use ConcurrentHashMap then it provide some additional facility like at a time more than one
+		Thread can read the data.
 	
 7. Important points about TreeSet :-
 	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
