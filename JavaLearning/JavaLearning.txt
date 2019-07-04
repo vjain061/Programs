@@ -74,6 +74,15 @@ Overriding
 				int i = 20;
 			}
 		}
+		
+18. Break statement can only be used with loop or switch. So, using break with if statement causes “break outside switch or loop” error.
+	Example :- 
+		class Sample {
+			public static void main(String args[]) {
+				if(true)
+				   break;
+			}
+		}
 	
 
 		
