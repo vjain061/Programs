@@ -57,6 +57,14 @@ Overriding
 14. Ad-hoc polymorphism is method overloading.
 
 15. Inner class can extends exactly one class or implements only one interface.
+
+16. How to create immutable customer class?
+	a. Make your class final, so that no other classes can extend it.
+	b. Make all your fields final, so that they’re initialized only once inside the constructor and never modified afterward.
+	c. Do not provide setter method just provide getter method.
+	d. When exposing methods which modify the state of the class, you must always return a new instance of the class
+	e. Inside the constructor, make sure to use a clone copy of the passed argument and never set your mutable field to the real 			instance passed through constructor, this is to prevent the clients who pass the object from modifying it afterwards.
+	f. Make sure to always return a clone copy of the field and never return the real object instance.
 	
 
 		
