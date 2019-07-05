@@ -12,3 +12,7 @@ logistic issue which has been solved by most people and I would be following the
 
 
 1. How does substring () inside String works?
+
+2. What is difference between Executor.submit() and Executer.execute() method ?
+
+
