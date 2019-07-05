@@ -83,6 +83,28 @@ Overriding
 				   break;
 			}
 		}
+		
+19. If you are only declaring a variable as find and not assigning any value then you can assign it's value into the constructor block.
+	but if you have already assigned the value at the time of declaration then you can not assign into the constructor block.
+	Example :- 
+		Class Sample{
+			public static void main(String args[]){
+				final int i;
+				public Sample(int i){
+					this.i = i;//This is valid
+				}
+			}
+		}
+		
+		
+		Class Sample{
+			public static void main(String args[]){
+				final int i = 10;
+				public Sample(int i){
+					this.i = i;//This is In-valid
+				}
+			}
+		}
 	
 
 		
