@@ -16,3 +16,13 @@ logistic issue which has been solved by most people and I would be following the
 2. What is difference between Executor.submit() and Executer.execute() method ?
 
 
+
+
+--------------------------------Maths Questions------------------------------
+1. In a sports academy, out of 40 students, 15 students do not play badminton, 30 students play 
+    football and 5 students do not play either. How many students in the academy play both the sports?
+    ANS -> 40 = 25 + 30 + 5 - x
+            x = 25 + 30 + 5 - 40
+            x = 20
+
+
