@@ -9,3 +9,6 @@ projects and counter questioning on how could it be done in a better way. The in
 analyzing the problem. 2. 2 Simple puzzles and 1 Medium difficulty puzzle. 3. I have to move the Statue of Liberty from point A to B.
 How would you do it? This is basically to test your handle over the SDLC steps along with Problem Solving. I mentioned that it was a 
 logistic issue which has been solved by most people and I would be following the similar things to track my package's state and location.
+
+
+1. How does substring () inside String works?
