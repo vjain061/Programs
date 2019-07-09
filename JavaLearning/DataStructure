@@ -6,3 +6,13 @@
 3. When to use AVL tree and when to use Red-Black tree?
     Ans :- If searching is frequent then we should you AVL tree,
            and if Modification is frequest then we should you Red-Black tree.
+           
+4. Design Data structure which give 0(1) time complexity in all CURD opearation.       
+    Ans :- For this requirement what we will do is we will create a array of same size as original array.
+    and while inserting or deleting value we will insert true or false in another array. And value of the 
+    array can be get by index only so before checking the value in original array we first see the value
+    of another array is true or false. If it is false then value has been deleted and if it is returning
+    true it means value is present in the array. By this technique we can achive the 0(1) complexity.
+   
+    https://www.geeksforgeeks.org/data-structure-n-elements-o1-operations/
+    
