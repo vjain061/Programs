@@ -14,7 +14,9 @@
 
 5. Default size of HashMap bucket is 16.
 
-6. ConcurrentHashMap provides better performance by locking only the portion of the map rather than blocking the whole
+6. Default size of ArrayList is 10.
+
+7. ConcurrentHashMap provides better performance by locking only the portion of the map rather than blocking the whole
 	map resulting in greater shared access, it does not allow null key or null value.
 	
 	It allows concurrent access to the map. Part of the map called Segment (internal data structure) is only getting locked while adding 
@@ -37,24 +39,24 @@
 
 Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurrenthashmap.html#ixzz5sg1nTYkl
 
-7. Diff between HashMap and ConcurrentHashMap
+8. Diff between HashMap and ConcurrentHashMap
 	a. ConcurrentHashMap is good option for multithreaded environment, using HashMap we can get synchronizedMap but this is
 		same as lagacy HashTable.
 	b. So basically if you use ConcurrentHashMap then it provide some additional facility like at a time more than one
 		Thread can read the data.
 	
-7. Important points about TreeSet :-
+9. Important points about TreeSet :-
 	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
 	   interface or a Comparator should be passed to TreeSet constructor during creation. This is required because TreeSet does not allow 
 	   duplicate elements and to ensure this with custom objects, TreeSet requires a comparator function to perform the comparison 
 	   of custom objects. If a comparator is not specified then when you try to add a custom object to TreeSet, it will 
 	   throw java.lang.ClassCastException.
 	   
-8. Homegeneous and Hetrogeneous -> Array have a runtime check on the type of the added element. That is, if a new element that is not of the same type  
+10. Homegeneous and Hetrogeneous -> Array have a runtime check on the type of the added element. That is, if a new element that is not of the same type  
 	is added, an ArrayStoreException is thrown at runtime. That's why they are considerd as "homegeneous".
 	That is not true for ArrayList. Due to type erasure at runtime, it can practically hold any object.
 	
-9. HashMap java 8 Implementation -> 
+11. HashMap java 8 Implementation -> 
 	a. But you can't rely on people to implement good hash functions. People will often write poor hash functions which will result in a 
 		non-even distribution. It's also possible that we could just get unlucky with our inputs means (It might possible that
 		we will get same hashcode and same bucket index for more elements).
@@ -67,5 +69,5 @@ Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurr
 		longer necessary. That's what the UNTREEIFY_THRESHOLD = 6 is for. If the number of elements in a bucket drops below six,
 		we might as well go back to using a linked list.
 		
-10. TreeSet work as homogeneous, we can not add different value like string and int at same time.
+12. TreeSet work as homogeneous, we can not add different value like string and int at same time.
 	If we try to add this we will get "ClassCastException" at run time.
