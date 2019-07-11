@@ -15,4 +15,13 @@
     true it means value is present in the array. By this technique we can achive the 0(1) complexity.
    
     https://www.geeksforgeeks.org/data-structure-n-elements-o1-operations/
+   
+5. How find that is there cycle in LinkedList?
+
+6. Find the middle of a given linked list?
+    Method 1:
+        Traverse the whole linked list and count the no. of nodes. Now traverse the list again till count/2 and return the node at count/2.
+    Method 2:
+        Traverse linked list using two pointers. Move one pointer by one and other pointer by two. When the fast pointer reaches end slow 
+        pointer will reach middle of the linked list.
     
