@@ -24,4 +24,23 @@
     Method 2:
         Traverse linked list using two pointers. Move one pointer by one and other pointer by two. When the fast pointer reaches end slow 
         pointer will reach middle of the linked list.
+        
+How do you reverse a linked list?
+How do you reverse a singly linked list without recursion? (solution)
+How are duplicate nodes removed in an unsorted linked list? (solution)
+How do you find the length of a singly linked list? (solution)
+How do you find the third node from the end in a singly linked list? (solution)
+How do you find the sum of two linked lists using Stack? (solution)
+How do you reverse a linked list in place? (solution)
+How to add an element at the middle of the linked list? (solution)
+How do you sort a linked list in Java? (solution)
+What is the difference between array and linked list? (answer)
+How to remove Nth Node from the end of a linked list? (solution)
+How to merge two sorted linked list? (solution)
+How to convert a sorted list to a binary search tree? (solution)
+Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x. (solution)
+How to remove duplicates from a sorted linked list? (solution)
+How to find the node at which the intersection of two singly linked lists begins. (solution)
+How to check if a given linked list is a palindrome? (solution)
+How to remove all elements from a linked list of integers which matches with given value? (solution)    
     
