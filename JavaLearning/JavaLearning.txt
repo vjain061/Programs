@@ -113,4 +113,6 @@ Overriding
 21. If superclass does nto contain no-arg constructor but contain argument constructor.
 	Than compiler won't provide no-arg constructor.
 		
- 
+22. Abstract class also have constructor, and hence constructor are called when object of concrete subclass is created, because abstract 	class cannot be instantiated directly.
+
+23. A concrete class is a class that has an implementation for all of its methods. They cannot have any unimplemented methods. It can          also extend an abstract class or implement an interface as long as it implements all their methods.
