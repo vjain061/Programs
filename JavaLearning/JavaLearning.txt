@@ -110,6 +110,7 @@ Overriding
 	Autoboxing ->  Converting a primitive value into an object of the corresponding wrapper class is called autoboxing.
 	Unboxing   ->  Converting an object of a wrapper type to its corresponding primitive value is called unboxing.
 	
-
+21. If superclass does nto contain no-arg constructor but contain argument constructor.
+	Than compiler won't provide no-arg constructor.
 		
  
