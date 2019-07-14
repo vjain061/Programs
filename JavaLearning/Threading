@@ -1,3 +1,9 @@
 1. What is deamon thread ?
   Ans :- It is a thread which runs in background, to create any thread as deamon thread just call setDeamon(true) method and to 
     check if this is deamon thread or not then call inDeamon() method.
+    
+2. Why thread communication methods wait(), notify() and notifyAll() are in Object class?
+
+3. Why wait(), notify() and notifyAll() methods have to be called from synchronized method or block?
+
+4. Why Thread sleep() and yield() methods are static?
