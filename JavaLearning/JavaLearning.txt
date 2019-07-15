@@ -129,3 +129,13 @@ Overriding
 			System.out.println(p.a);
 		}
 	}
+	
+25. Diff between functional programming and OOPS ?
+
+26. How you will use Employee(id,name) as a key in HashMap where id is always unique. And why it was returing null please see...
+
+27. Swap two numbers without using third variable.
+
+28. How you will stop to create duplicate object in custom immutable class.
+
+29. 
