@@ -116,3 +116,16 @@ Overriding
 22. Abstract class also have constructor, and hence constructor are called when object of concrete subclass is created, because abstract 	class cannot be instantiated directly.
 
 23. A concrete class is a class that has an implementation for all of its methods. They cannot have any unimplemented methods. It can          also extend an abstract class or implement an interface as long as it implements all their methods.
+
+24. 
+	class ParentOfSample{
+		public int a = 10;
+	}
+
+	public class Sample  extends ParentOfSample{
+		public int a = 5;
+		public static void main(String[] args) {
+			ParentOfSample p = new Sample();
+			System.out.println(p.a);
+		}
+	}
