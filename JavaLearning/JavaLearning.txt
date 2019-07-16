@@ -58,7 +58,7 @@ Overriding
 
 15. Inner class can extends exactly one class or implements only one interface.
 
-16. How to create immutable customer class?
+16. How to create immutable custome class?
 	a. Make your class final, so that no other classes can extend it.
 	b. Make all your fields final, so that they’re initialized only once inside the constructor and never modified afterward.
 	c. Do not provide setter method just provide getter method.
