@@ -1,0 +1,9 @@
+1. How to convert list of object to map?
+
+createPeople().stream().
+.collect(toMap(Person::getName, Person::getAge));
+or
+createPeople().stream().
+.collect(toMap(person -> person.getName(), person -> person.getAge()));
+
+Note -> where createPeople() is a method which will retrun a list of person object which is having two attributes (Name and Age).
