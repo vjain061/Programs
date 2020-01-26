@@ -7,3 +7,11 @@ createPeople().stream().
 .collect(toMap(person -> person.getName(), person -> person.getAge()));
 
 Note -> where createPeople() is a method which will retrun a list of person object which is having two attributes (Name and Age).
+
+2. How to get comma separate value for a list of object?
+
+createPeople().stream()
+.filter(person -> person.getAge() > 30)
+.map(Person::getName)
+.map(String::toUpperCase)
+.collect(joining(", "))
