@@ -71,3 +71,17 @@ Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurr
 		
 12. TreeSet work as homogeneous, we can not add different value like string and int at same time.
 	If we try to add this we will get "ClassCastException" at run time.
+	
+13. Look at the below example to understand why stringbuffer and stringbuilder is not overriding equals and hashcode methods.
+
+        StringBuffer sb = new StringBuffer("abc");
+        StringBuffer sb1 = new StringBuffer("abc");
+        
+        StringBuffer sb2 = new StringBuffer("abc");
+        
+        Map<StringBuffer, String> hm = new HashMap<>();
+        hm.put(sb, "vaibhav");
+        hm.put(sb1, "jain");
+        System.out.println(hm.get(sb2));
+	
+14. 	
