@@ -53,3 +53,5 @@ Internationalization or i18n -> is the process of designing software so that it 
 @Resource  : DI + Remove Ambigu   (@Resource(name="${propertyName}"))
 @PropertySource(value="{classpath:application.properties}")
 --------------------------------------------------------------------------------------------------
+
+servletContext.addServlet() method returns NULL if the perticular dispatcher servlet is already registerd using web.xml file.
