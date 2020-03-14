@@ -6,3 +6,8 @@ b. Safe [Avoid entire classes of errors such as null pointer exceptions] [Kotlin
 c. Introperable [Leverage existing libraries for the JVM, Android, and the browser][ Use any existing library on the JVM, as there’s 100%       compatibility, including SAM support].
 d. Tool-friendly [Choose any Java IDE or build from the command line]
 
+
+Kotlin is compile down to javascript and java both.
+statically typed
+
+
