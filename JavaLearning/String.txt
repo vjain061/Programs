@@ -11,3 +11,7 @@ public void display(int...i) {System.out.println("Int...");}
 Output :- Int
 
 Because int i's method priority in high then Integer i's method and int...i method will have last priority.
+
+Note :- 
+1. Widening a smaller primptive value to bigger primpitive type.
+2. Narrowing a wider/bigger primptive type value to a smaller type value.
