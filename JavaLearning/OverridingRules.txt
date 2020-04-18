@@ -1,0 +1,5 @@
+1. The overriding method must have same signature, which includes, the argument list and the return type.
+2. The overriding method can not have more restrictive access modifier.
+3. The exception thrown by the overriding method should not be new or more broader checked exception.
+4. 
+
