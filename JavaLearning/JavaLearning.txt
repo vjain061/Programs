@@ -173,3 +173,11 @@ Overriding
 			return false;
 		return true;
 	}
+	
+30. Call a child class method from a parent class object.....
+
+Though this is possible, it is not at all recommended as it kind of destroys the reason for inheritance. The best way would be to restructure your application design so that there are NO parent to child dependencies. A parent should not ever need to know its children or their capabilities.
+
+You can do it using below code....
+
+    (Child)p.childMethod();
