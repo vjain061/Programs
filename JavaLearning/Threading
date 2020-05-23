@@ -23,3 +23,78 @@
     some other threads that are in wait state. That’s why these methods are made static so that when this method is called statically,
     it works on the current executing thread and avoid confusion to the programmers who might think that they can invoke these 
     methods on some non-running threads.
+    
+5. Join method best example.....
+
+
+public class JoinMethodWorkingInThread {
+
+	public static void main(String args[]) throws InterruptedException {
+		
+		//Planning Start
+		Planning planning = new Planning();
+		Thread planningThread = new Thread(planning);
+		planningThread.start();
+		//Planning End
+		
+		//Development Start
+		Development development = new Development();
+		Thread developmentThread = new Thread(development);
+		planningThread.join();
+		developmentThread.start();
+		//Development End
+		
+		//Testing Start
+		Testing testing = new Testing();
+		Thread testingThread = new Thread(testing);
+		developmentThread.join();
+		testingThread.start();
+		//Testing End
+	}
+
+}
+
+class Planning implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Planning...");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Planning Completed");
+	}
+	
+}
+
+class Development implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Development...");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Development Completed");
+	}
+	
+}
+
+class Testing implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Testing...");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Testing Completed");
+	}
+	
+}
