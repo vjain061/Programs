@@ -1,0 +1,8 @@
+1. If you are extending Parent in Child class then first static block of parent will get executed and then child's class static block will get executed.
+2. After executing static block of both the classes main method of parent will get executed.
+3. If you are creating object of parent class in main method then below is the flow :-
+    a. Static block of super
+    b. Static block of child
+    c. Main method has been called
+    d. Constructor of super
+    e. Constructor of child
