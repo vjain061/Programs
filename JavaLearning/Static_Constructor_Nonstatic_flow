@@ -7,3 +7,4 @@
     d. Constructor of super
     e. Constructor of child
 4. Non-static variable x cannot be referenced from a static context.
+5. We can not declare the static variable inside the block. If we declare static variable inside the block, then we will get the compile time error : illegal start of expression.
