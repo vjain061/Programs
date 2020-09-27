@@ -6,3 +6,4 @@
     c. Main method has been called
     d. Constructor of super
     e. Constructor of child
+4. Non-static variable x cannot be referenced from a static context.
