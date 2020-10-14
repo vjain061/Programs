@@ -15,6 +15,10 @@ logistic issue which has been solved by most people and I would be following the
 
 2. What is difference between Executor.submit() and Executer.execute() method ?
 
+3. What happens if an exception not caught?
+Ans ->  It leads to the termination of the program within which through when an uncaught exception results in the uncaughtException() method of the thread’s ThreadGroup,
+        it invokes.
+
 
 
 
