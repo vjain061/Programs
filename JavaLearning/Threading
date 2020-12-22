@@ -98,3 +98,11 @@ class Testing implements Runnable {
 	}
 	
 }
+
+6. Diff between callable and runnable?
+
+Runnable                                Callable
+1. Run(), Start()                       1. Call(), Submit()
+2. Can't return value                   2. Returns future object
+3. Can't throw checked exception        3. Can throw checked exception
+4. Java 1.0                             4. Java 1.5
