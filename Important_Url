@@ -11,7 +11,10 @@ Abstract class in java - https://www.journaldev.com/1582/abstract-class-in-java,
 Why hashcode and equals method required to be overridden. https://www.geeksforgeeks.org/override-equalsobject-hashcode-method/
 OOPs concepts - https://www.journaldev.com/12496/oops-concepts-java-example , https://www.journaldev.com/12492/oops-interview-questions-answers, http://tutorials.jenkov.com/java/inheritance.html
 Java Exception handling - https://www.journaldev.com/1696/exception-handling-in-java, https://www.geeksforgeeks.org/exceptions-in-java/
-Java String questions - https…
+Java String questions - https://www.journaldev.com/1321/java-string-interview-questions-and-answers
+Java collection framework -  https://www.journaldev.com/1260/collections-in-java-tutorial, https://www.journaldev.com/1330/java-collections-interview-questions-and-answers 
+Internal implementation in hash map in java  -  https://www.javamadesoeasy.com/2015/02/hashmap-custom-implementation.html, https://www.javamadesoeasy.com/2015/04/hashmap-in-java.html
+Java multithreading basics.
 https://www.javamadesoeasy.com/2015/09/how-garbage-collection-works-internally.html
 https://dzone.com/articles/jvm-architecture-explained
 https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
