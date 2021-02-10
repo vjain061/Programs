@@ -21,3 +21,5 @@ https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
 https://www.geeksforgeeks.org/lru-cache-implementation/
 Journal dev / jenkov / jmse / java revisited 
 These are good resources to read on java
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+https://javaconceptoftheday.com/interface-vs-abstract-class-after-java-8/#:~:text=After%20Java%208%2C%20an%20interface,methods%20along%20with%20abstract%20methods.&text=Abstract%20classes%20can't%20have%20default%20methods.
