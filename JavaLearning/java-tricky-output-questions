@@ -42,3 +42,24 @@ public class Sub extends Super {
 }
 
 Output :- Compilation Error
+
+---------------------------------------------3--------------------------------------------------
+
+String s1 = "abc";
+String s2 = s1.toString();
+String s3 = s1.toLowerCase();
+String s4 = s1.toUpperCase();
+
+sop(s1 == s2);
+sop(s1 == s3);
+sop(s1 == s4);
+
+
+---------------------------------------------4--------------------------------------------------
+
+String s1 = new String("abc");
+String s2 = s1.toLowerCase();
+String s3 = s1.toUpperCase();
+
+sop(s1 == s2);
+sop(s1 == s3);
