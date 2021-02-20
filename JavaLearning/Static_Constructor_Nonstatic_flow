@@ -8,3 +8,7 @@
     e. Constructor of child
 4. Non-static variable x cannot be referenced from a static context.
 5. We can not declare the static variable inside the block. If we declare static variable inside the block, then we will get the compile time error : illegal start of expression.
+
+
+Important point to tell is ki jo non-static block hota he vo pura uthke constructor me aa jata he while running the program but constructor me sbse upar super() call rehta
+he isliye parent ke non-static or constructor call ho jate he..........ye bilkul confirm he.
