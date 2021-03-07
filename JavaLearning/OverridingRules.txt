@@ -3,3 +3,26 @@
 3. The exception thrown by the overriding method should not be new or more broader checked exception.
 4. 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+class MySuper {
+    String str1 = "x";
+    public MySuper() {
+        myMethod();
+    }
+    void myMethod() {
+        System.out.print(str1);
+    }
+}
+public class Practic extends MySuper {
+    String str2 = "y";
+    public Practic() {
+        super();
+    }
+    void myMethod() {
+        System.out.print(str2);
+    }
+    public static void main(String[] args) {
+        MySuper mySub = new Practic();
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------
