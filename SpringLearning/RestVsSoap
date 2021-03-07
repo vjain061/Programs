@@ -1,0 +1,14 @@
+SOAP -> 
+1. Asynchronous Processing
+2. Strict Agreements
+3. Stateful Operations
+
+Great for finanical transactions
+
+REST -> 
+1. Limited Connection
+2. Stateless Operations
+3. Caching
+4. Coding Simplicity
+
+Great for running mutliple operations
