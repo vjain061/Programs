@@ -25,3 +25,6 @@ These are good resources to read on java
 https://javaconceptoftheday.com/interface-vs-abstract-class-after-java-8/#:~:text=After%20Java%208%2C%20an%20interface,methods%20along%20with%20abstract%20methods.&text=Abstract%20classes%20can't%20have%20default%20methods.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 http://techieme.in/comparable-and-comparato/
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Why would one declare an immutable class final in Java?
+https://stackoverflow.com/questions/12306651/why-would-one-declare-an-immutable-class-final-in-java#:~:text=The%20standard%20argument%20for%20making,mutates%20out%20from%20under%20them.
