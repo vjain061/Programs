@@ -49,6 +49,9 @@ Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurr
 	   fast in nature but in case of ConcurrentHashMap we can modify the object while iterating over it.
 	e. In HashMap we can have key and value as null but in case of ConcurrentHashMap we can't hava key and value as null otherwise we will get 
 	   NullPointerException.
+
+9. ConcurrentHashMap vs SynchronizedMap
+	a. Only part of map object is locked in case of ConcurrentHashMap but SynchronizedMap locks whole map object.
 	
 9. Important points about TreeSet :-
 	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
