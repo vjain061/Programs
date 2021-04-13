@@ -52,6 +52,7 @@ Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurr
 
 9. ConcurrentHashMap vs SynchronizedMap
 	a. Only part of map object is locked in case of ConcurrentHashMap but SynchronizedMap locks whole map object.
+	b. The code of all method of SynchronizedMap is written in synchronized block.
 	
 9. Important points about TreeSet :-
 	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
