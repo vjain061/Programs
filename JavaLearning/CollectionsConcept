@@ -44,6 +44,11 @@ Read more: https://javarevisited.blogspot.com/2011/04/difference-between-concurr
 		same as lagacy HashTable.
 	b. So basically if you use ConcurrentHashMap then it provide some additional facility like at a time more than one
 		Thread can read the data.
+	c. HashMap's performance is high and sometimes ConcurrentHashMap's performance is low because thread required to wait.
+	d. In HashMap while iterating over it if we try to modify the object then it will throw ConcurrentModificationException which means it's fail 
+	   fast in nature but in case of ConcurrentHashMap we can modify the object while iterating over it.
+	e. In HashMap we can have key and value as null but in case of ConcurrentHashMap we can't hava key and value as null otherwise we will get 
+	   NullPointerException.
 	
 9. Important points about TreeSet :-
 	a. In order to add custom or user defined objects to TreeSet data structure, the custom class should implement the Comparable 
