@@ -19,14 +19,27 @@ logistic issue which has been solved by most people and I would be following the
 Ans ->  It leads to the termination of the program within which through when an uncaught exception results in the uncaughtException() method of the thread’s ThreadGroup,
         it invokes.
 
+----------------------------------------------CITI----------------------------------------------
 
-
-
---------------------------------Maths Questions------------------------------
-1. In a sports academy, out of 40 students, 15 students do not play badminton, 30 students play 
-    football and 5 students do not play either. How many students in the academy play both the sports?
-    ANS -> 40 = 25 + 30 + 5 - x
-            x = 25 + 30 + 5 - 40
-            x = 20
-
-
+1. Overloading and overriding rules.
+2. Parent method throwing public and child is throwing protected is it valid.
+3. What is method signature.
+4. throws in method overloading.
+5. 
+        Class A {
+                public A getInstance(String c){
+                }
+        }
+        
+        Class B extends A {
+                public B getInstance(String c){
+                }
+        }
+        
+6. How to create immutable class.
+7. How will you resolve cycle dependency between two classes.
+8. Traversal of binary tree.
+9. How IOC container works.
+10. Bean scope in spring.
+11. what is DI in spring.
+12. 
