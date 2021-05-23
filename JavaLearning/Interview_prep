@@ -19,6 +19,8 @@ logistic issue which has been solved by most people and I would be following the
 Ans ->  It leads to the termination of the program within which through when an uncaught exception results in the uncaughtException() method of the thread’s ThreadGroup,
         it invokes.
 
+4. Write a comparator which can be used to compare any type of objects?
+
 ----------------------------------------------CITI----------------------------------------------
 
 1. Overloading and overriding rules.
