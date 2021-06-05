@@ -32,7 +32,7 @@ Ans ->  It leads to the termination of the program within which through when an 
                 public A getInstance(String c){
                 }
         }
-        
+6. why java does't support mutliple inheritace?        
         Class B extends A {
                 public B getInstance(String c){
                 }
