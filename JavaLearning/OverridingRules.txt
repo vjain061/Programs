@@ -1,6 +1,7 @@
-1. The overriding method must have same signature, which includes, the argument list and the return type.
+1. The overriding method must have same signature, which includes, method name and the argument list.
+2. Return type should be same or covarient type is allowed.
 2. The overriding method can not have more restrictive access modifier.
-3. The exception thrown by the overriding method should not be new or more broader checked exception.
+3. The exception thrown by the overriding method should be same or child of the parent method.
 4. If we are overriding static method then it will call method on the basis of decleared object
     Example :- Base b = new Child();
                b.staticMethod(); // This will call static method of Base class.
