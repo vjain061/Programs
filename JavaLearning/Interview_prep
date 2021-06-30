@@ -145,7 +145,19 @@ while(it.hasNext()) {
 
 4. Read about multithreading deeply.....
 
-
+----------------------------------------------Emphasis----------------------------------------------
+1. Hibernate vs JPA.
+2. Spring Boot and Spring Batch
+3. Sleep vs wait
+4. PostMapping vs PutMapping
+5. JMS Queue
+6. Spring cloud
+7. Functional interfaces
+8. Stream API
+9. DateTime API 
+10. Comparable vs Comparator
+11. Collection hiearachy
+12. Exception hiearachy
 
 
 
