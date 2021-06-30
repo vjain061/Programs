@@ -16,6 +16,7 @@ Java collection framework -  https://www.journaldev.com/1260/collections-in-java
 Internal implementation in hash map in java  -  https://www.javamadesoeasy.com/2015/02/hashmap-custom-implementation.html, https://www.javamadesoeasy.com/2015/04/hashmap-in-java.html
 Java multithreading basics.
 https://www.javamadesoeasy.com/2015/09/how-garbage-collection-works-internally.html
+https://javapapers.com/java/types-of-java-garbage-collectors/
 https://dzone.com/articles/jvm-architecture-explained
 https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
 https://www.geeksforgeeks.org/lru-cache-implementation/
