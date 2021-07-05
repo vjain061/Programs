@@ -145,6 +145,46 @@ while(it.hasNext()) {
 
 4. Read about multithreading deeply.....
 
+----------------------------------------------Wissen Final round----------------------------------------------
+Question :- Get Emp data in single shot.
+
+public interface Emp{
+
+void addEmp(int empId,String dept);
+
+void udpateEmp(int EmpId, String dept);
+
+List<EmpId> getEmpByDept(String dept);
+
+}
+
+class EmpImpl implements Emp {
+
+    Map<String, List<Integer>> employeeDB = new HashMap();
+
+    Map<Integer, String> employeeDB = new HashMap();
+
+    void addEmp(int empId,String dept) {
+        List<Integer> ids = employeeDB.get(dept);
+        ids.add(empId);
+        employeeDB.put(dept, ids);
+    }
+
+    void udpateEmp(int EmpId, String dept) {
+        employeeDB.put(EmpId, dept);
+    }
+
+    List<EmpId> getEmpByDept(String dept) {
+        Set<String> keys = employeeDB.keySet();
+            
+    }
+
+    public static void main(String[] args) {
+        
+    }
+}
+
+
 ----------------------------------------------Emphasis----------------------------------------------
 1. Hibernate vs JPA.
 2. Spring Boot and Spring Batch
