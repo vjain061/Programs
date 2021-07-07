@@ -59,7 +59,7 @@ Ans ->  It leads to the termination of the program within which through when an 
     //get
 }
 
-
+2. Is this thread safe?
 Class A {
     public void synchronized m1() {
         Thread.sleep(5000);
@@ -73,7 +73,7 @@ Class A {
     }
 }
 
-
+3. What is the execuation flow?
 class Parent {
     public void walk() {
             //3
@@ -99,7 +99,7 @@ class Child extends Parent {
 
 List<Integer> ints;
 
-sum of squra of all odd numberss
+4. sum of squra of all odd numberss
 
 ints.stream().filter(it -> it % 2 == 0).map(it -> it*it).sum()
 
@@ -111,7 +111,7 @@ ints.stream().filter(it -> it % 2 == 0).map(it -> it*it).sum()
 
 
 Table 
-BookAuthor (book(Unique), author)
+5. BookAuthor (book(Unique), author)
 
 
 select author from BookAuthor having 10 < (select count(author) from BookAuthor group by book);
