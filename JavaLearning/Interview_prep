@@ -48,7 +48,9 @@ Ans ->  It leads to the termination of the program within which through when an 
 
 
 ----------------------------------------------Wissen----------------------------------------------
-1. final class person {
+
+1. Create this class as immutable.
+final class person {
     private String name;
     private List<String> decrese;
 
