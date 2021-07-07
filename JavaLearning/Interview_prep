@@ -246,3 +246,48 @@ Time Complexities
 implement an immutable class
 
 Kadane Algorithm, find max sum in a subarray
+
+
+----------------------------------------------Tech Ed 1 - Preparation Material : Wissen Technology----------------------------------------------
+
+SQL
+DS & Algo - Pole Coloring problem - Given the number of poles and connections between them, color the poles so no two connected poles have the same color .
+Collections - Population count 
+
+Write code to get population counts based on input
+
+ 
+
+Design Principles and Patterns
+Spring, AOP, ORM
+
+GC, Serialization, Reflection, Lambdas DB - Normalization, Joins, Simple Queries
+
+ 
+
+Inheritance, Polymorphism
+Java Collections  
+
+ 
+
+Was able to implement enqueue & dequeue methods of queue.
+
+Design an emergency landing plane structure where the emergency plane has more priority?
+
+ 
+
+Find kth largest element in an array of unsorted elements? O(n log n)
+
+Time complexities
+
+ 
+
+Difference between an abstract class and an interface?
+
+ 
+
+Immutable class design. What happens when we use a collection inside it?
+
+ 
+
+write Junit for a sort method. Sort it by using decreasing order of frequency if any collision is there, sort it by value.
