@@ -202,5 +202,47 @@ class EmpImpl implements Emp {
 12. Exception hiearachy
 
 
+----------------------------------------------Tech Ed 1 - Preparation Material : Wissen Technology----------------------------------------------
+
+PFB pointers & prepare well
+1.       Inheritance, Polymorphism
+Java Collections
 
 
+2.       Design Principles and Patterns
+Spring, AOP, ORM
+REST, SOAP, Txn, Sessions, IO
+DB - Normalization, Joins, Simple Queries
+
+ 
+
+3.       SQL – Problem solving
+Data Structures & Algo - Write enqueue & dequeue for Queue
+DS & Collections - Population count
+
+ 
+
+4.       Design Principles and Patterns
+
+Java Collections(Problem Solving)
+
+Multithreading and concurrency
+
+ What is the difference between an abstract class and an interface?
+
+Data structures
+1 Find kth largest element in an array of unsorted elements?
+
+ Design
+1 What is a singleton pattern?
+2 Design a traffic signal in java?
+
+3 Design an emergency landing plane structure where the emergency plane has more priority?
+
+
+Time Complexities
+
+
+implement an immutable class
+
+Kadane Algorithm, find max sum in a subarray
