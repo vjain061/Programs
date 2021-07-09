@@ -106,3 +106,7 @@ Runnable                                Callable
 2. Can't return value                   2. Returns future object
 3. Can't throw checked exception        3. Can throw checked exception
 4. Java 1.0                             4. Java 1.5
+
+7. Semaphore vs Mutex
+Mutex is a object owned by thread, so there is a ownership in mutex. Mutex allow only one thread to access resources.
+Semaphore is singnaling mechanism. It allows a number of thread to access shared resources.
