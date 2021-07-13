@@ -148,7 +148,12 @@ while(it.hasNext()) {
 4. Read about multithreading deeply.....
 
 ----------------------------------------------Wissen Final round----------------------------------------------
-Question :- Get Emp data in single shot.
+1. SOLID principles 
+2. Blocking Queue
+3. Different implementation of executor service.
+4. Store procudure.
+
+5. Question :- Get Emp data in single shot.
 
 public interface Emp{
 
