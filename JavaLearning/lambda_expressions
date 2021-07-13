@@ -1,1 +1,2 @@
 1. To treat functionality as method argument, or code as data.
+2. After java8 function interface and have static and default method but it should have only single abstract method.
