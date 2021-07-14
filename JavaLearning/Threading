@@ -110,3 +110,8 @@ Runnable                                Callable
 7. Semaphore vs Mutex
 Mutex is a object owned by thread, so there is a ownership in mutex. Mutex allow only one thread to access resources.
 Semaphore is singnaling mechanism. It allows a number of thread to access shared resources.
+
+8. CyclicBarrier VS CountDownLatch
+If you look at CyclicBarrier it also does the same thing but it is different you can not reuse CountDownLatch once the count reaches zero while 
+you can reuse CyclicBarrier by calling the reset() method which resets Barrier to its initial State.
+
