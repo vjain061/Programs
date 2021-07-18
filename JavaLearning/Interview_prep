@@ -296,3 +296,12 @@ Immutable class design. What happens when we use a collection inside it?
  
 
 write Junit for a sort method. Sort it by using decreasing order of frequency if any collision is there, sort it by value.
+
+----------------------------------------------Synechron----------------------------------------------
+1. What are the functional interfaces.
+2. Lambda expression
+3. Serialization with example and vice versa
+4. Singleton class with thread safe
+5. Overriding and Overloading rule
+6. Exception
+7. Java 7 and Java 8 features name them.
