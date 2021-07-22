@@ -1,0 +1,19 @@
+@SpringBootApplication = @Configuration + @EnableAutoConfiguration + @ComponentScan
+
+@Configuration is alternative of @Bean
+
+META-INF/spring.factories
+1. Enable
+2. Disable
+
+Based on @Conditional/@Profiler
+
+How this @Conditional works is that in anyclass if you want to create bean on some condition like create only when the dependent class bean is present only.
+Some example of conditions :- (OnBeanCondition, OnClassCondition, OnJavaCondition, OnWebApplicationCondition)
+
+This part comes under auto configuration feature.
+
+SpringApplication.run(...) :- From the run method, the main application context is kicked off which in turn searches for the classes annotated with 
+@Configuration, initializes all the declared beans in those configuration classes, and stores those beans in JVM, specially in space inside JVM which 
+is known as IOC container. After creation of all the beans, automatically configures the dispatcher servlet and registers the default handler mappings,
+messageconverts and all other basic things.
