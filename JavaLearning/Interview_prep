@@ -80,20 +80,25 @@ Answer :- Yes synchronized method is always thread safe.
 3. What is the execuation flow?
 class Parent {
     public void walk() {
-            //3
+        System.out.println("walk method of patent");//1
     }
     public void run() {
-        walk();//2
+        walk();
+        System.out.println("run method of patent");//3
     }
 }
-class Child extends Parent {
+
+public class Child extends Parent {
     public void walk() {
         super.walk();
+        System.out.println("walk method of child");//2
     }
     public void run() {
-        super.run();//1
+        super.run();
+        System.out.println("run method of child");//4
     }
-    pubilc static void main(){
+
+    public static void main(String[] args) {
         Parent p = new Child();
         p.run();
     }
