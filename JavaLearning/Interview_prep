@@ -59,6 +59,7 @@ final class person {
         this.decrese = decrese;
     }
     //get
+    //and in getter of decrese we will return coppied/duplicate object not actual object.
 }
 
 2. Is this thread safe?
@@ -74,6 +75,7 @@ Class A {
         02.m1();
     }
 }
+Answer :- Yes synchronized method is always thread safe.
 
 3. What is the execuation flow?
 class Parent {
