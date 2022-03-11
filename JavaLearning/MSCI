@@ -150,3 +150,7 @@ second
 Java - HashMap, Hashtable, Concurrent HashMap, Cycli barrier, Count down latch, Deadlick, Livelock, race condition, design patterns 
 Algorithm - Finding minimum all the time from a stream of charcters, kth minimum
 Database - bank transaction design, Transpose table, nth maximum salary
+
+Atomic vs Volatile
+
+
