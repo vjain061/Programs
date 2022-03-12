@@ -118,3 +118,11 @@ Semaphore is singnaling mechanism. It allows a number of thread to access shared
 If you look at CyclicBarrier it also does the same thing but it is different you can not reuse CountDownLatch once the count reaches zero while 
 you can reuse CyclicBarrier by calling the reset() method which resets Barrier to its initial State.
 
+ * <p>A {@code CountDownLatch} is initialized with a given <em>count</em>.
+ * The {@link #await await} methods block until the current count reaches
+ * zero due to invocations of the {@link #countDown} method, after which
+ * all waiting threads are released and any subsequent invocations of
+ * {@link #await await} return immediately.  This is a one-shot phenomenon
+ * -- the count cannot be reset.  If you need a version that resets the
+ * count, consider using a {@link CyclicBarrier}.
+
