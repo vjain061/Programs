@@ -153,4 +153,62 @@ Database - bank transaction design, Transpose table, nth maximum salary
 
 Atomic vs Volatile
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+List<Employee> employee;
+
+id name salary
+
+employee.stream().sort(Collection.sort(new Comparator<Employee>(
+	new compare(employee e, employee e2) {
+		e.salary.compareTo(e1.salary);
+	}
+))).collec().get(0);
+
+
+
+A B C D E
+
+sitting in circle
+
+int p_count = 5;
+
+
+//c linkedlist A B C D E
+
+      	       1 2 3 4 1 
+
+A|100  B|200 C|300 D|400 E|000
+
+A|200  C|300 D|400 E|000
+
+  C|300  E|200
+
+  C|200  
+
+
+int count = 5;4 3 2
+Node head = createList();
+Node temp = head;
+
+while (count > 0) {
+	temp.next;= temp.next.next;
+	count--;
+	temp = temp.next;	
+}
+
+
+
+@Entity("Employee")
+class Employee {
+	@Id
+	private int id;
+	
+	@OneToOne
+	private Department d_id;
+}
+
+
+Thread.join() we can use to eliminate race condition.
+
 
