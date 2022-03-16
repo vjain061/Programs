@@ -211,4 +211,7 @@ class Employee {
 
 Thread.join() we can use to eliminate race condition.
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+In final interview he asked about how to find sortest path in 2D array it was like delivery boy want to deliver very fast.
 
