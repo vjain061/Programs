@@ -215,3 +215,33 @@ Thread.join() we can use to eliminate race condition.
 
 In final interview he asked about how to find sortest path in 2D array it was like delivery boy want to deliver very fast.
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+1. @Transactional in hibernate.
+2. Name annotation which you have used in spring.
+3. Advantages of spring boot.
+4. singleton vs prototype bean.
+5. diff types of beans in spring.
+6. Create countdownlatch for calling 4 database call from single callable.
+7. types of executors frameworks.
+8. "I am vaibhav" reverse it like "vaibhav am I" with out using list collections, split method.
+9. diff between requestparam and pathparam.
+10. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
