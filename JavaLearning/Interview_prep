@@ -319,3 +319,54 @@ write Junit for a sort method. Sort it by using decreasing order of frequency if
 2. Find 10 max salary from list using stream API.
 3. why stream over collection.
 4. 
+
+------------------------------------------------------------Alrimetrics-------------------------------------------------------------
+
+Employee
+name 
+city
+
+List<Employee> eList;
+
+fetch name who in pune
+
+eList.stream().filter(obj->obj.getCity().equals("pune")).map(i->i.getName()).collect(Collector.list());
+
+
+
+"asdfghfgdfgfgggerttt"
+
+Map<String, Integer> map = new HashMap<>();
+
+for(int i=0;i<s.length();i++) {
+	if (map.containsKey(s.charAt(i)+"") {
+		int count = map.get(s.charAt(i)+"");
+		map.put(s.charAt(i)+"", ++count);
+	} else {
+		map.put(s.charAt(i)+"", 1);
+	}
+}
+
+
+What is cyclic dependency in spring and how to remove it
+why we use @service and @repository in spring
+@springbootapplication consist of which thing in it
+what are ioc container in spring
+@proxy use in spring
+
+what is cloneable 
+where is clone method
+how arraylist works internally
+concurrenthashmap vs synchronizedhashmap
+
+
+
+
+
+
+
+
+
+
+
+
