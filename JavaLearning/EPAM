@@ -29,5 +29,6 @@ types of executor framework
 19. ACID properties.
 20. Check if two strings are anagram or not using map. 
     Ans :- We can have one map first iterate in first string and add count and then take second string and reduce count if count is zero for each element then return true.
+21. SubSet sum.    
     
     
