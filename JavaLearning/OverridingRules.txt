@@ -5,6 +5,9 @@
 4. If we are overriding static method then it will call method on the basis of decleared object
     Example :- Base b = new Child();
                b.staticMethod(); // This will call static method of Base class.
+               
+Other Rules :-
+1. The choice of which overloaded that should be called is decided at compile time itself. The reference type (Type of the reference variable and not the actual type of the object it is pointing to) decides which overloaded method is invoked.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 class MySuper {
