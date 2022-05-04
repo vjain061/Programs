@@ -29,3 +29,18 @@ public class Practic extends MySuper {
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+package com.markbdsouza.polymorphism;
+
+interface Movable {
+   void move();
+}
+class Fish implements Movable {
+   void move(){System.out.println("swims");}
+}
+public class Level2 {
+    public static void main(String[] args) {
+        Movable fish = new Fish();
+        fish.move();
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------
