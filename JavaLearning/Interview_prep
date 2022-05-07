@@ -362,12 +362,56 @@ how many ways to create object in java.
 How can you get synchronized list.
 
 
+----------------------------------------Volkswagen---------------------------------------------
+1. What is idempotent method in rest.
+2. JPA hibernate spring data relationship how to use JPA.
+3. What is @SpringBootApplication consists of?
+4. Marker interfaces?
+5. Serialization and what is the significant of serial version id?
+6. transient & will static variable part in Serialization?
+7. 
+3. final class Person implemets serilizable{
+	private trasient int id ;
+	private String name;
+	
+	public Person(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public int getName() {
+		return name;
+	}
+	
+	public List<Integer> getLIst(List<Integer>) {
+		return list;
+	}
+	
+	public List<String> getLIst(List<String>) {
+		return list;
+	}
+	
+	//obj.getLIst(null);
+	
+}
 
+List<Person> persons
 
+Collections.sort(persons, new Comparator<person> {
+	public int compare(person p1, person p2) {
+		return p1.id - p2.id;
+	}
+})
 
+persons.stream().sort((p1, p2)-> p1.id - p2.id).Collect(Collectors.toList());
 
+Employee  id, name, salary
 
-
+select * from Employee sort by salary DESC;
 
 
 
