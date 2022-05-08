@@ -1,34 +1,53 @@
-Oops concept
-Marker interface, can we create custom marker interface, how to use it
-HashMap, Arraylist, Set  internal process
-Arraylist vs linked list
-Hashtable, HashMap
-What is API gateway
-Difference b/w @Controller and @RestController in spring
-How manage Transaction between different microservices
-Spring actuator
-What is the difference between intermediate and terminal operations on Stream?
-Java 8 feature
-Functional interface, how to create and use it
-Http status code
-Difference in PUT and POST
-About stream API
-Difference between @Service, @Component and @Repository
-@Pathvarible and @RequestParam
-@Qulifier annotation
-Why String is immutable in java
-Difference between metaspace and permgen
-Purpose of Singleton classes
-Bean Scope
-Multithreading, Concurrency
-ExcecutorService
-Design pattern
-SOLID principle
-Purpose of default and static method in java 8
-Difference in abstract class and interface in java 8
-SQL join, view and trigger
-How @Trancactional works in Spring Boot
-How multiple datasource(mysql, postgresql) configure in spring boot
-How to create custom Exception, try with resource
+-----Oops concept-----
+-----Marker interface, can we create custom marker interface, how to use it-----
+-----HashMap, Arraylist, Set  internal process-----
+-----Arraylist vs linked list-----
+-----Hashtable, HashMap-----
+-----What is API gateway-----
+-----Difference b/w @Controller and @RestController in spring-----
+-----How manage Transaction between different microservices-----
+-----Spring actuator-----
+-----What is the difference between intermediate and terminal operations on Stream?-----
+-----Java 8 feature-----
+-----Functional interface, how to create and use it-----
+-----Http status code-----
+-----Difference in PUT and POST-----
+-----About stream API-----
+-----Difference between @Service, @Component and @Repository-----
+-------------------------------------------------------@Pathvarible and @RequestParam-------------------------------------------------------
+
+@RequestMapping(value = "/{name}", method = RequestMethod.GET)
+    public String home(@PathVariable String name) {
+		return "Input name from client "+name+" using PathVariable";
+    }
+
+
+    @RequestMapping(method = RequestMethod.GET)
+	public String home2(@RequestParam String name) {
+    	return "Input name from client "+name+" using RequestParam";
+	}
+
+    @RequestMapping(value = "/home3", method = RequestMethod.GET)
+    public String home3(@RequestHeader String city) {
+        return "Input city from client "+city+" using RequestParam";
+    }
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+-----@Qulifier annotation-----
+-----Why String is immutable in java-----
+-----Difference between metaspace and permgen-----
+-----Purpose of Singleton classes-----
+-----Bean Scope-----
+-----Multithreading, Concurrency-----
+-----ExcecutorService-----
+-----Design pattern-----
+-----SOLID principle-----
+-----Purpose of default and static method in java 8-----
+-----Difference in abstract class and interface in java 8-----
+-----SQL join, view and trigger-----
+-----How @Trancactional works in Spring Boot-----
+-----How multiple datasource(mysql, postgresql) configure in spring boot-----
+-----How to create custom Exception, try with resource-----
 
 
