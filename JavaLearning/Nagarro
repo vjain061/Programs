@@ -11,7 +11,18 @@
 -----Java 8 feature-----
 -----Functional interface, how to create and use it-----
 -----Http status code-----
------Difference in PUT and POST-----
+-------------------------------------------------------Difference in PUT and POST-------------------------------------------------------
+
+Method	Description						Idempotent	Safe	Example Use
+GET	Retrieve a URI						✓		✓	Loading a webpage
+HEAD	Retrieve a URI without the response body		✓		✓	Useful for debugging, or querying a resource to find metadata such as the size.
+POST	Submit data to a resource and create a new entity	✘		✘	Creating an article on a blog.
+PUT	Update all data in a resource entity			✓		✘	Updating all fields in an article on a blog (title and body).
+PATCH	Update some data in a resource entity			✘		✘	Updating only specific fields in an article on a blog (title only).
+DELETE	Remove a resource					✓		✘	Remove an article on a blog.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 -----About stream API-----
 -----Difference between @Service, @Component and @Repository-----
 -------------------------------------------------------@Pathvarible and @RequestParam-------------------------------------------------------
