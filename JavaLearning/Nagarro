@@ -9,7 +9,19 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 -----Difference b/w @Controller and @RestController in spring-----
------How manage Transaction between different microservices-----
+-------------------------------------------------------How manage Transaction between different microservices-------------------------------------------------------
+
+
+If we could split our system in such microservices, there's a good chance we wouldn't need to implement transactions between them at all.
+
+Follwing are the approach :-
+1. Two Phase commit protocall also called 2pc
+	1.1 Prepare phase :- 
+	1.2 Commit or rollback phase :- 
+2. XA Standard
+3. REST-AT Standard Draft
+4. Eventual Consistency and Compensation	
+--------------------------------------------------------------------------------------------------------------------------------------------
 -----Spring actuator-----
 -----What is the difference between intermediate and terminal operations on Stream?-----
 -----Java 8 feature-----
