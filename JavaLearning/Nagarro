@@ -65,7 +65,25 @@ DELETE	Remove a resource					✓		✘	Remove an article on a blog.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
------@Qulifier annotation-----
+-------------------------------------------------------@Qulifier annotation-------------------------------------------------------
+
+Solve the ambiguity.
+
+@Autowired
+@Qualifier("fooFormatter")
+private Formatter formatter;
+
+alternate 
+
+@Primary
+public class FooFormatter implements Formatter
+
+alternate 
+
+@Autowired //Autowired by name
+private Formatter fooFormatter;
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 -----Why String is immutable in java-----
 -----Difference between metaspace and permgen-----
 -----Purpose of Singleton classes-----
