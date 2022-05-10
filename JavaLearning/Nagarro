@@ -8,7 +8,13 @@
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
------Difference b/w @Controller and @RestController in spring-----
+-------------------------------------------------------Difference b/w @Controller and @RestController in spring-------------------------------------------------------
+
+@RestController(Spring 4.0) = @Controller + @ResponseBody 
+@Controller is specialized version of @Component
+@RestController is specialized version of @Controller(Spring 2.5)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------How manage Transaction between different microservices-------------------------------------------------------
 
 
