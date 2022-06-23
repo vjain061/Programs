@@ -12,3 +12,16 @@ REST ->
 4. Coding Simplicity
 
 Great for running mutliple operations
+
+Below are the constraits for REST API :-
+1. Client-server architecture
+2. Statelessness
+3. Cacheability
+4. Layered system
+5. Code on Demand
+6. Uniform Interface
+	6.1 Resource identification in request
+	6.2 Resource manipulation through representation 
+	6.3 Self-descriptive message
+	6.4 Hypermedia as the engine of application state
+
