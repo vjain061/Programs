@@ -1,3 +1,11 @@
+spring.boot.starter.web dependency comes with so many build in jar's below is some list :-
+Tomcat
+Junit
+JSON Marshaller
+SLF4J
+Spring libraries (Core, Aop, Bean, context and others)
+Snake YAML
+
 @SpringBootApplication = @Configuration + @EnableAutoConfiguration + @ComponentScan
 
 @Configuration is alternative of @Bean
