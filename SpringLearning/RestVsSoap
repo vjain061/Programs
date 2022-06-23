@@ -13,6 +13,13 @@ REST ->
 
 Great for running mutliple operations
 
+REST is a Design Principle userfull to create Single page application on Web.
+REST Request = Method + URI
+
+URI = Any sequence of charcter that identifies resource on server
+URL = Subset of URI (With http, https, ftp, smtp)
+URN = 
+
 Below are the constraits for REST API :-
 1. Client-server architecture
 2. Statelessness
@@ -24,4 +31,27 @@ Below are the constraits for REST API :-
 	6.2 Resource manipulation through representation 
 	6.3 Self-descriptive message
 	6.4 Hypermedia as the engine of application state
+	
+Below is the HTTP status :-
+1**	Information
+2**	Success
+3**	Redirection
+4**	Client Error
+5**	Server Error
+
+200 Ok
+404 Not Found
+401 Unauthorized
+405 Method Not Allowed
+
+Below is the REST Methods :-
+GET = get
+POST = create
+OPTIONS = get info about REST API how many points there
+PUT = Update
+PATCH = Modify
+DELETE = Delete
+HEAD = To get only head section of resource.
+
+
 
