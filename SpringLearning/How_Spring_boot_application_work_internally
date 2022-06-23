@@ -17,3 +17,45 @@ SpringApplication.run(...) :- From the run method, the main application context 
 @Configuration, initializes all the declared beans in those configuration classes, and stores those beans in JVM, specially in space inside JVM which 
 is known as IOC container. After creation of all the beans, automatically configures the dispatcher servlet and registers the default handler mappings,
 messageconverts and all other basic things.
+
+@EnableAutoConfiguration :- 1. Allow for configuration classes to be scanned dynamically.
+                            2. Driven off spring.factories
+                            3. @AutoConfigurationBefore and @AutoConfigurationAfter
+                            
+*Property Based Configuration*
+1. application.properties or application.yaml
+2. Enviroment Variable
+3. Command-line parameter
+4. Cloud Configuration 
+
+*Bean Configuration*
+Adding bean to default application class
+Adding bean to separate configuration class
+Importing XML-based configuration
+Component Scanning
+
+----------------------------------------------------------------------------------------
+
+*Spring Profiles*
+Can do it using two ways application.yaml or application.properties
+spring.profiles
+
+How to Engage profile
+spring.profiles.active
+Inject via command line or envirnment variable
+
+Below is the example how we can set profile and use it.
+application.yaml
+spring:
+  profiles: dev
+server:
+  port: 8000
+---
+spring:
+  profiles: test
+server:
+  port: 8009
+  
+And then set envirnment variable  spring.profiles.active = dev/test to see the diff while running the application.
+
+----------------------------------------------------------------------------------------
