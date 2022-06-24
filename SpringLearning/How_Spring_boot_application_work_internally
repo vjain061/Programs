@@ -66,4 +66,8 @@ server:
   
 And then set envirnment variable  spring.profiles.active = dev/test to see the diff while running the application.
 
+2. Follow below steps to work with spring profile using env specific application.properties files
+  2.1 Create two files application-dev.properties and application-test.properties file and add (server.port=8084) and (server.port=8085) diff port in both file.
+  2.2 Set Env veriable like spring.profiles.active=dev/test
+
 ----------------------------------------------------------------------------------------
