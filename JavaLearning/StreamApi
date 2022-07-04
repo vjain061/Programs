@@ -21,3 +21,5 @@ Note -> where createPeople() is a method which will retrun a list of person obje
    
    createPeople().stream()
       .collect(partitioningBy(person -> person.getAge() % 2 == 0))
+      
+4. https://medium.com/javarevisited/java-8-parallel-stream-java2blog-e1254e593763      
