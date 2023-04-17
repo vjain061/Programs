@@ -23,3 +23,10 @@ Note -> where createPeople() is a method which will retrun a list of person obje
       .collect(partitioningBy(person -> person.getAge() % 2 == 0))
       
 4. https://medium.com/javarevisited/java-8-parallel-stream-java2blog-e1254e593763      
+
+5. Map and FlatMap is for transformation of given collection.
+Example :- let say you have give list of student and student contains name and list of marks. 
+Now you asked to add 10 in each student marks in each subject and return updated list of students.
+
+Answer :-
+List<Student> result = students.stream().map(it -> new Student(it.name, it.marks.stream().map(ti->ti+10).toList())).toList();
