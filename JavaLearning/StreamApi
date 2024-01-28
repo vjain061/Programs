@@ -33,6 +33,7 @@ List<Student> result = students.stream().map(it -> new Student(it.name, it.marks
 
 6. What is the uses of flatmap function.
 if list<list> something kuch he and usko iterate krna he to flatmap use kr skte he
+Flattening is referred to as merging multiple collections/arrays into one
 Here is the example :- Get the unique surnames in uppercase of the first 15 book authors that are 50 years old or older.
 
         List<String> result = libraries.stream()
