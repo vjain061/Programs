@@ -42,3 +42,29 @@ Here is the example :- Get the unique surnames in uppercase of the first 15 book
                 .filter(it -> it.age>28)
                 .map(it -> it.surname)
                 .collect(Collectors.toList());
+
+7. Print out the sum of ages of all female authors younger than 25.
+
+        int result = libraries.stream()
+                .flatMap(it -> it.books.stream())
+                .filter(it -> it.author.age<25)
+                .filter(it -> it.author.gender.equals("Female"))
+                .map(it -> it.author.age)
+                .reduce(0, Integer::sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
