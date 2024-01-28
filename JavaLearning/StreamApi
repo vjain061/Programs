@@ -30,3 +30,14 @@ Now you asked to add 10 in each student marks in each subject and return updated
 
 Answer :-
 List<Student> result = students.stream().map(it -> new Student(it.name, it.marks.stream().map(ti->ti+10).toList())).toList();
+
+6. What is the uses of flatmap function.
+if list<list> something kuch he and usko iterate krna he to flatmap use kr skte he
+Here is the example :- Get the unique surnames in uppercase of the first 15 book authors that are 50 years old or older.
+
+        List<String> result = libraries.stream()
+                .flatMap(it -> it.books.stream())
+                .map(it -> it.author)
+                .filter(it -> it.age>28)
+                .map(it -> it.surname)
+                .collect(Collectors.toList());
