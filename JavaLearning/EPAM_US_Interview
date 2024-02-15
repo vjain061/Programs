@@ -13,4 +13,4 @@
 13. NoSql
 14. AWS basic (EC2, S3, lambda vs EC2, CDN)
 15. diff between region vs availability zone
-16. 
+16. How to manage lazy loadig in hibernate if we have parent and child class scenario.
