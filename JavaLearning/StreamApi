@@ -82,6 +82,40 @@ Here is the example :- Get the unique surnames in uppercase of the first 15 book
 28) Find first non-repeated character in a string?
 31) How do you get last element of an array?
 
+----------------------------------------------------------------------------------------------------------------------------------
+1. Consumer and Supplier example
+    public static void main(String[] args) {
+        Supplier<String> supplier = new Supplier() {
+            @Override
+            public String get() {
+                return "String";
+            }
+        };
+
+        Consumer<String> consumer = new Consumer<String>() {
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+            }
+        };
+        Stream.generate(supplier).forEach(consumer);
+    }
+
+2. Diff way of creating a stream and Consumer example
+      public static void main(String[] args) {
+        Stream<Integer> numbers = Stream.of(20,45,85,65,74,15,49,73);
+
+        Consumer<Integer> consumer = new Consumer<Integer>() {
+            @Override
+            public void accept(Integer integer) {
+                System.out.println(integer);
+            }
+        };
+
+        numbers.forEach(consumer);
+    }
+
+3. 
 
 
 
