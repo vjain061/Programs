@@ -115,7 +115,36 @@ Here is the example :- Get the unique surnames in uppercase of the first 15 book
         numbers.forEach(consumer);
     }
 
-3. 
+3. //Map vs Peek method
+    /*
+        Peek we use for debug purpose, and map used for transforming a value to diff form
+        Why peek can not replace map?
+        Because map accept a Function FI(which returns a value) while peek accepts a Consumer FI(which does not return a value)
+        Note :- Peek is intermediate operation so if there is no terminal operation then it won't do anything.
+     */
+
+    public static void main(String[] args) {
+        Integer[] numbers = {2, 3, 4, 5};
+
+        Function<Integer, Integer> function = new Function<Integer, Integer>() {
+            @Override
+            public Integer apply(Integer integer) {
+                return integer * integer;
+            }
+        };
+
+        Stream.of(numbers).map(function).forEach(System.out::println);
+        System.out.println("Map Done...Starting Peek");
+
+        Consumer<Integer> consumer = new Consumer<Integer>() {
+            @Override
+            public void accept(Integer integer) {
+                integer = integer * integer;
+            }
+        };
+
+        Stream.of(numbers).peek(consumer).forEach(System.out::println);
+    }
 
 
 
